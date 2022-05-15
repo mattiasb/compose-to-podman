@@ -47,3 +47,5 @@ yaml2json "${1}" \
                  )
             | "podman container create " + join(" ")
             '
+# TODO: Look at running this for all
+# podman generate systemd <container> --new --files --no-header --name
